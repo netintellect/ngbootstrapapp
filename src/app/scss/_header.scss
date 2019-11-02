@@ -1,0 +1,24 @@
+@import "~bootstrap";
+
+.header {
+  @extend .text-center;
+  @extend .display-3;
+  color: white;
+  @media(min-width: 576px) {
+    background: $danger;
+  }
+
+  @media(min-width: 768px) {
+    background: $info;
+  }
+
+  @media(min-width: 992px) {
+    background: $dark;
+  }
+
+  @media(min-width: 1200px) {
+    background: $success;
+  }
+}
+
+
