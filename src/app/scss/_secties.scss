@@ -1,0 +1,23 @@
+@import "~bootstrap";
+
+.section {
+  @extend .container-fluid;
+  @extend .bg-dark;
+  border: 2px solid yellow;
+  padding: 2px;
+}
+
+.sectionItem {
+  @extend .row
+}
+
+.subsection {
+  @extend .col;
+  color: white;
+  background: red;
+  margin: 2px 2px 2px 2px;
+  &:hover {
+    color: black;
+    background: lighten(white, 80%);
+  }
+}

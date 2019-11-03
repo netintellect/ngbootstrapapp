@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { ExampleLayoutComponent } from './examples/layout/example-layout.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExampleLayoutComponent
   ],
   imports: [
     BrowserModule,

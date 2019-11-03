@@ -1,1 +1,8 @@
+@import "~bootstrap";
 @import "scss/header";
+@import "scss/secties";
+
+.approot {
+  @extend .container-fluid;
+
+}

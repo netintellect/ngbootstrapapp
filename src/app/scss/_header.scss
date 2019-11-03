@@ -4,21 +4,23 @@
   @extend .text-center;
   @extend .display-3;
   color: white;
-  @media(min-width: 576px) {
+
+  @include media-breakpoint-up(sm) {
     background: $danger;
   }
 
-  @media(min-width: 768px) {
+  @include media-breakpoint-up(md) {
     background: $info;
   }
 
-  @media(min-width: 992px) {
+  @include media-breakpoint-up(lg){
     background: $dark;
   }
 
-  @media(min-width: 1200px) {
+  @include media-breakpoint-up(xl){
     background: $success;
   }
+  margin: 0;
 }
 
 
